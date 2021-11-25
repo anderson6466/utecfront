@@ -21,11 +21,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
+   
 	 "postinstall": "npm run build",
     "start": "node server.js",
 	
-    "deploy": "main -d build",
+  
    
     "build": "react-scripts build",
     "test": "react-scripts test",
